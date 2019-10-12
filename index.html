@@ -15,55 +15,21 @@ body {
 <body>
 <table width="69%" border="0">
   <tr>
-    <td width="63%">&nbsp;</td>
+    <td width="85%">&nbsp;</td>
     <td width="4%">&nbsp;</td>
-    <td width="33%">&nbsp;</td>
+    <td width="11%">&nbsp;</td>
   </tr>
   <tr>
     <td rowspan="12"><img src="image/b1.png" width="629" height="877" /></td>
     <td height="68">
-    <audio src="mp3/01bed.mp3" id="aud01" loop="loop"></audio>
-    <img src="image/play.png" id="playpause01" />
-<script type="text/javascript">
-var aud01 = document.getElementById("aud01");
-var img01 = document.getElementById("playpause01");
-img01.onclick = function() {
-    if (aud01.paused) {
-        aud01.play();
-    } else {
-        aud01.pause();
-    }
-}
-aud01.addEventListener("play", function (e) {
-    img01.src="image/paused.png";
-}, false);
-aud01.addEventListener("pause", function (e) {
-    img01.src="image/play.png";
-}, false);
-</script></td>
+    <audio src="mp3/01bed.mp3" id="aud01" loop="loop" controls="controls"></audio>
+    </td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td height="76">
-    <audio src="mp3/02cat.mp3" id="aud02" loop="loop"></audio>
-    <img src="image/play.png" name="playpause02" id="playpause02" />
-<script type="text/javascript">
-var aud02 = document.getElementById("aud02");
-var img02 = document.getElementById("playpause02");
-img02.onclick = function() {
-    if (aud02.paused) {
-        aud02.play();
-    } else {
-        aud02.pause();
-    }
-}
-aud02.addEventListener("play", function (e) {
-    img02.src="image/paused.png";
-}, false);
-aud02.addEventListener("pause", function (e) {
-    img02.src="image/play.png";
-}, false);
-</script>
+    <audio src="mp3/02cat.mp3" id="aud02" loop="loop" controls="controls"></audio>
+    
   </td>
     <td>&nbsp;</td>
   </tr>
