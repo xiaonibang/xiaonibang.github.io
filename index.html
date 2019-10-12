@@ -1,38 +1,117 @@
-localhost:8888
-\[*\]
-[Ò»-ý›]
-[e]bed[bed]   ´²
-[?]cat[k?t]  Ã¨
-[?]bird[b??d]  Äñ
-[?]banana[b?n?n?][b?na:n?]  Ïã½¶
-[a:]car[ka(r)]  Ð¡Æû³µ
-[?]bus[b?s]  ¹«¹²Æû³µ
-[i:]he[hi:]  Ëû
-[I][i]pig[pig]  Öí
-[??]ball[b??l]  Çò
-[?][?]dog[d?g][d?:g]  ¹·
-[u:]ruler[ru:l?]  ³ß×Ó
-[?][u]book[b?k]  Êé
-[ei]cake[keik]  µ°¸â
-[ai]bike[baik]  ×ÔÐÐ³µ
-[?i]boy[b?i]  ÄÐº¢
-[i?]deer[di?]  Ã·»¨Â¹
-[au]flower[flau?]  »¨¶ä
-[e?]pear[pe?]  Àæ
-[?u]boat[b?ut]  Ð¡´¬
-[u?]poor[pu?][p??]  Çî¡¢¿ÉÁ¯
-[t]taxi[t?k'si]  ³ö×â³µ
-[d]duck[d?k]  Ñ¼×Ó
-[p]plane[plein]  ·É»ú
-[b]bel[bel]  Áåîõ
-[k]clock[kl?k][kla:k]  ÖÓ
-[g]gir[g??l] [g?:l]  Å®º¢
-[f]photo[f?ut?u]  ÕÕÆ¬
-[v]vase[va:z][veis]  »¨Æ¿
-[w]window[wind?u]  ´°»§
-[r]radio[reidi?u]  ÊÕÒô»ú
-[s]sun/son[s?n]  Ì«Ñô¶ù×Ó
-[z]zebra[zi:br?][zebr?]  °ßÂí
-[?]shoes[?u:z]Ð¬×Ó
-[?]television[telivi??n][tel?vi?n]
-[i?????¦Èe????]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<audio id="music" src="music/yinanping.flac" loop autoplay></audio>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>æ— æ ‡é¢˜æ–‡æ¡£</title>
+<style type="text/css">
+body {
+	background-image: url(image/images.png);
+	background-repeat: repeat;
+}
+</style>
+</head>
+
+<body>
+<table width="69%" border="0">
+  <tr>
+    <td width="63%">&nbsp;</td>
+    <td width="4%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="12"><img src="image/b1.png" width="629" height="877" /></td>
+    <td height="68">
+    <audio src="mp3/01bed.mp3" id="aud01" loop="loop"></audio>
+    <img src="image/play.png" id="playpause01" />
+<script type="text/javascript">
+var aud01 = document.getElementById("aud01");
+var img01 = document.getElementById("playpause01");
+img01.onclick = function() {
+    if (aud01.paused) {
+        aud01.play();
+    } else {
+        aud01.pause();
+    }
+}
+aud01.addEventListener("play", function (e) {
+    img01.src="image/paused.png";
+}, false);
+aud01.addEventListener("pause", function (e) {
+    img01.src="image/play.png";
+}, false);
+</script></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="76">
+    <audio src="mp3/02cat.mp3" id="aud02" loop="loop"></audio>
+    <img src="image/play.png" name="playpause02" id="playpause02" />
+<script type="text/javascript">
+var aud02 = document.getElementById("aud02");
+var img02 = document.getElementById("playpause02");
+img02.onclick = function() {
+    if (aud02.paused) {
+        aud02.play();
+    } else {
+        aud02.pause();
+    }
+}
+aud02.addEventListener("play", function (e) {
+    img02.src="image/paused.png";
+}, false);
+aud02.addEventListener("pause", function (e) {
+    img02.src="image/play.png";
+}, false);
+</script>
+  </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="70">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="75">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="72">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="68">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="72">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="74">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="63">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="68">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="75">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
