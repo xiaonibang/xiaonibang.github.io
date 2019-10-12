@@ -9,6 +9,22 @@ body {
 	background-image: url(image/images.png);
 	background-repeat: repeat;
 }
+#apDiv1 {
+	position:absolute;
+	width:107px;
+	height:26px;
+	z-index:1;
+	left: 274px;
+	top: 64px;
+}
+#apDiv2 {
+	position:absolute;
+	width:118px;
+	height:27px;
+	z-index:2;
+	left: 280px;
+	top: 137px;
+}
 </style>
 </head>
 
@@ -20,15 +36,20 @@ body {
     <td width="11%">&nbsp;</td>
   </tr>
   <tr>
-    <td rowspan="12"><img src="image/b1.png" width="629" height="877" /></td>
+    <td rowspan="12"><img src="image/b1.png" width="629" height="877" />
+      <div id="apDiv2"> <audio src="mp3/02cat.mp3" id="aud02" loop="loop" controls="controls"></audio></div>
+    <div id="apDiv1">
+      <audio src="mp3/01bed.mp3" id="aud01" loop="loop" controls="controls"></audio></div>
+       
+    </td>
     <td height="68">
-    <audio src="mp3/01bed.mp3" id="aud01" loop="loop" controls="controls"></audio>
+    
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td height="76">
-    <audio src="mp3/02cat.mp3" id="aud02" loop="loop" controls="controls"></audio>
+   
     
   </td>
     <td>&nbsp;</td>
